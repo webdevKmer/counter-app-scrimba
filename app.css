@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: bisque;
+}
+.title{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.count {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+#add{
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
