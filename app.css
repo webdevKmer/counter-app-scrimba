@@ -20,11 +20,11 @@
     font-weight: bold;
     font-size: 2rem;
 }
-.count {
+#count {
     margin-bottom: 1rem;
     font-size: 4rem;
 }
-#add{
+button{
     padding: .5rem 1rem;
     cursor: pointer;
     font-weight: bold;
