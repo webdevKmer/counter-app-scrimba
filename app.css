@@ -15,14 +15,25 @@
     justify-content: center;
     background-color: bisque;
 }
-.title{
-    margin-bottom: 1rem;
+h1{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-weight: bold;
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 #count {
     margin-bottom: 1rem;
     font-size: 4rem;
+}
+.btns {
+    margin-bottom: 1rem;
 }
 button{
     padding: .5rem 1rem;
