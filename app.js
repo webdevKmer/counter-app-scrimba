@@ -2,10 +2,15 @@ console.log("Hello from js.")
 let counter = document.getElementById('count')
 let step = 0
 counter.innerHTML = step
-const btn = document.getElementById('add') 
-btn.addEventListener('click', () => {
+const addBtn = document.getElementById('add')
+const saveBtn = document.getElementById('save')
+addBtn.addEventListener('click', () => {
     step += 1
     counter.innerHTML = step
-    console.log('click', counter.innerText)
 })
-console.log(counter.innerText)
+function saveCount(){
+    console.log(counter.innerText)
+}
+saveBtn.addEventListener('click', () => {
+    saveCount()
+})
